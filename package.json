@@ -8,7 +8,9 @@
   },
   "scripts": {
     "styleguide": "standard",
-    "test": "npm run styleguide && NODE_ENV=test node test"
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "unit-test": "nyc tape test/*.js",
+    "test": "npm run styleguide && npm run unit-test"
   },
   "repository": {
     "type": "git",
@@ -26,7 +28,9 @@
   },
   "homepage": "https://github.com/tphummel/node-app",
   "devDependencies": {
-    "tape": "latest",
-    "standard": "latest"
+    "coveralls": "latest",
+    "nyc": "latest",
+    "standard": "latest",
+    "tape": "latest"
   }
 }
