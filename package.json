@@ -8,6 +8,7 @@
   },
   "scripts": {
     "styleguide": "standard",
+    "fix": "standard-format -w",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "unit-test": "nyc tape test/*.js",
     "test": "npm run styleguide && npm run unit-test"
@@ -31,6 +32,7 @@
     "coveralls": "latest",
     "nyc": "latest",
     "standard": "latest",
+    "standard-format": "latest",
     "tape": "latest"
   }
 }
