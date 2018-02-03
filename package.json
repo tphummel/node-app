@@ -1,5 +1,5 @@
 {
-  "name": "node-app",
+  "name": "@tphummel/node-app",
   "version": "1.0.0",
   "description": "node starter app boilerplate",
   "main": "index.js",
