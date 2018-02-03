@@ -9,10 +9,10 @@
     git push -u origin master
 
 
-# {{app}}
+# node-app
 
-[![Build Status](https://travis-ci.org/{{author}}/{{app}}.png)](https://travis-ci.org/{{author}}/{{app}})  
-[![NPM](https://nodei.co/npm/{{app}}.png?downloads=true)](https://nodei.co/npm/{{app}}/)
+[![Build Status](https://travis-ci.org/tphummel/node-app.png)](https://travis-ci.org/tphummel/node-app)
+[![NPM](https://nodei.co/npm/node-app.png?downloads=true)](https://nodei.co/npm/node-app/)
 
 # install
 
