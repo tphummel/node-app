@@ -1,6 +1,7 @@
-var test = require('tape')
+var tap = require('tap')
+var lib = require('..')
 
-test('remove me', function (t) {
-  t.plan(1)
-  t.fail('replace sample test with real tests')
+tap.test('first test', function (t) {
+  t.ok(lib())
+  t.end()
 })

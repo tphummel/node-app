@@ -7,11 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "styleguide": "standard",
-    "fix": "standard-format -w",
-    "coverage": "nyc report --reporter=text-lcov | coveralls",
-    "unit-test": "nyc tape test/*.js",
-    "test": "npm run styleguide && npm run unit-test"
+    "fix": "standard --fix",
+    "test": "standard && tap test/*.js --100 --coverage-report=text-summary"
   },
   "repository": {
     "type": "git",
@@ -29,10 +26,7 @@
   },
   "homepage": "https://github.com/tphummel/node-app",
   "devDependencies": {
-    "coveralls": "latest",
-    "nyc": "latest",
     "standard": "latest",
-    "standard-format": "latest",
-    "tape": "latest"
+    "tap": "latest"
   }
 }

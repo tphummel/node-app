@@ -13,13 +13,14 @@
 
 [![Build Status](https://travis-ci.org/{{author}}/{{app}}.png)](https://travis-ci.org/{{author}}/{{app}})  
 [![NPM](https://nodei.co/npm/{{app}}.png?downloads=true)](https://nodei.co/npm/{{app}}/)
-[![Coverage Status](https://coveralls.io/repos/tphummel/{{app}}/badge.svg?branch=master&service=github)](https://coveralls.io/github/tphummel/{{app}}?branch=master)
 
 # install
 
     npm install {{app}}
 
 # test
+
+💯 enforced
 
     npm test
 
