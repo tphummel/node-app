@@ -13,9 +13,9 @@ git push -u origin master
 
 # node-app
 
-[![Build Status](https://travis-ci.org/tphummel/node-app.png)](https://travis-ci.org/tphummel/node-app)[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![CI Status](https://github.com/tphummel/node-app/actions/workflows/ci.yml/badge.svg)](https://github.com/tphummel/node-app/actions/workflows/ci.yml)
 
-[![NPM](https://nodei.co/npm/node-app.png?downloads=true)](https://nodei.co/npm/node-app/)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 # install
 
